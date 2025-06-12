@@ -31,26 +31,26 @@ npm run dev
 
 Create a .env file in the root of the backend directory (Ad_Backend/.env) and add the following:
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/Advdb
-JWT_SECRET=hmyhyhyyhnhvyhtn
+MONGO_URI=
+JWT_SECRET=
 
 # JWT for Traditional Auth
-JWT_ACCESS_SECRET=kjhghjkhkhjhhhhdsn
-JWT_REFRESH_SECRET=gvgcyvbytvhnivtuuvujjuiuj
+JWT_ACCESS_SECRET=
+JWT_REFRESH_SECRET=
 JWT_REFRESH_SECRET_EXP_DAY=30
 
 # Redis Server
-REDIS_URL=redis://localhost:6379
+REDIS_URL=
 
 # Email SMTP - for generating OTP
-EMAIL_USER=aroravrinda03@gmail.com
-EMAIL_PASS=zxwrfgtqvqmjzofm
+EMAIL_USER=
+EMAIL_PASS=
 
 # OAuth2.0 Google Login
 GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
-GOOGLE_CALLBACK=http://localhost:5000/v1/user/auth/google/callback
+GOOGLE_CALLBACK=
 
 # Frontend URL
-FRONTEND_URL=http://localhost:5173/
+FRONTEND_URL=
 
